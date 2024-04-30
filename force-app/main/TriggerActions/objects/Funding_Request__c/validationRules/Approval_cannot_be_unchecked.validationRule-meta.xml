@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_cannot_be_unchecked</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  Approved__c = false,
+  ISCHANGED(Approved__c)
+)</errorConditionFormula>
+    <errorDisplayField>Approved__c</errorDisplayField>
+    <errorMessage>Approved cannot be unchecked once it has been checked</errorMessage>
+</ValidationRule>
