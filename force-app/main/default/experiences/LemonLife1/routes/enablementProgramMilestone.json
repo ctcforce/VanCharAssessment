@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "1956dfbc-3fe4-465a-9c3d-5505b596a11a",
+  "appPageId" : "24027472-c4c9-467a-aa1c-a7c3f9ef04ec",
+  "configurationTags" : [ ],
+  "devName" : "Enablement_Program_Milestone",
+  "id" : "d21264c2-3d46-4b00-8035-30127393496c",
+  "label" : "Enablement Program Milestone",
+  "routeType" : "enablement-program-milestone",
+  "type" : "route",
+  "urlPrefix" : "enablement-program-milestone"
+}

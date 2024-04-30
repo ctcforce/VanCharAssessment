@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Request Funding" lwc:if={showForm}>
+        <lightning-record-form
+                object-api-name={objectApiName}
+                fields={fields}
+                onsubmit={handleSubmit}
+        ></lightning-record-form>
+    </lightning-card>
+</template>

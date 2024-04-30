@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "43b82b9b-dfee-4204-85fb-687796e274c1",
+  "appPageId" : "24027472-c4c9-467a-aa1c-a7c3f9ef04ec",
+  "configurationTags" : [ ],
+  "devName" : "Funding_Request_Detail__c",
+  "id" : "38e22c9b-12b8-4ad8-a346-515e2c659198",
+  "label" : "Funding Request Detail",
+  "objectApiName" : "Funding_Request__c",
+  "routeType" : "detail-a00",
+  "type" : "route",
+  "urlPrefix" : "funding-request"
+}

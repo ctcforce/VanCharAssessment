@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b4210cb9-c683-4f79-8bf6-be8d6ec7ec1c",
+  "appPageId" : "24027472-c4c9-467a-aa1c-a7c3f9ef04ec",
+  "configurationTags" : [ ],
+  "devName" : "Enablement_Program_Related_List",
+  "id" : "70104d72-4d0c-464d-83be-539f7a23726e",
+  "label" : "Enablement Program Related List",
+  "routeType" : "relatedlist-0Qo",
+  "type" : "route",
+  "urlPrefix" : "enablementprogram"
+}
