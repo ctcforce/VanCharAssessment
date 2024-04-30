@@ -54,7 +54,7 @@ public without sharing class TA_FundingRequest_InviteToCommunity implements Trig
 		User u = new User(
 				UserName = UUID.randomUUID().toString() + '@lemonlife.com',
 				FirstName = fundReq.Applicant_First_Name__c,
-				LastName = fundReq.Applicant_First_Name__c,
+				LastName = fundReq.Applicant_Last_Name__c,
 				Alias = fundReq.Applicant_First_Name__c.substring(0, 1) + fundReq.Applicant_Last_Name__c.left(7),
 				email = fundReq.Applicant_Email__c,
 				CommunityNickName = string.valueOf(math.random()).substring(0, 6),
