@@ -13,14 +13,6 @@
     "regionName" : "featured",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : { },
-      "componentName" : "c:fundingRequestForm",
-      "id" : "17c7d405-c91b-47dd-bc27-664f3be705e7",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "32eddf0e-eced-494a-8bd5-ce605535d1f8",
     "regionName" : "content",
     "type" : "region"

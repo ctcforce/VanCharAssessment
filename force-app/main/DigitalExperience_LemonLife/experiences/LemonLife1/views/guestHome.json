@@ -1,0 +1,72 @@
+{
+  "appPageId" : "24027472-c4c9-467a-aa1c-a7c3f9ef04ec",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "97303984-57e9-4ce7-ba6a-89b60e9bac48",
+  "label" : "GuestHome",
+  "regions" : [ {
+    "id" : "37bdd6f0-9bd2-4e94-b2a7-9b8e6f23e1ca",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "16db2f10-f5f1-4465-951d-e6f9989353c4",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:fundingRequestForm",
+      "id" : "b95b7eca-560e-4186-b9fa-304f839ecb0c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "671642c1-2815-4f45-8d4c-c2a07d3cc7d1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "display" : "LEVELS_POINTS",
+        "excludeInternalUsers" : false,
+        "knowledgeLabel" : "Knows about",
+        "numberOfUsers" : 5,
+        "showContextUser" : false,
+        "showTooltip" : false,
+        "showUserRank" : false,
+        "title" : "Leaderboard",
+        "tooltipText" : "Earn points and climb to new levels when you contribute in the experience!"
+      },
+      "componentName" : "forceCommunity:reputationLeaderboard42",
+      "id" : "e26a5793-e7eb-4d23-9286-19ecd2b60053",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b6af9bc5-392b-4d48-bdeb-0dc85d8a812e",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "21949f0f-fdbb-40de-b341-a0b042a010e0",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e6287a87-8a75-4c73-877f-fe7e81b7de02",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4ee4c524-f09a-4a85-978d-0944bc8fb23f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

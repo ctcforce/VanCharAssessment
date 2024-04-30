@@ -1,0 +1,69 @@
+{
+  "appPageId" : "24027472-c4c9-467a-aa1c-a7c3f9ef04ec",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a5a37f20-05df-4a2f-8a68-6fc23c818483",
+  "label" : "MemberHome",
+  "regions" : [ {
+    "id" : "ad0b8032-3bb5-41b6-865c-975348b96046",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "ad669c0a-f673-4a3b-b3aa-b78cd1a5d187",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "My_Funding_Requests",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "Funding_Request__c",
+        "showActionBar" : false,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "6c4d3b20-1fc4-456c-9669-7e85596d0964",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bfa3ce59-6201-48cd-a9ec-34aabb174f9f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d62f23e1-2d4c-4a3f-9c7e-2d4432a70e0c",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "4de3fd25-7670-48dc-8ca1-8bbd513c0b51",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "69b3dd20-6013-400c-b02f-0c14bfee0a47",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2ff84d9d-fd48-4e76-8616-fb512d0abd53",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}
