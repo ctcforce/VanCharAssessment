@@ -20,19 +20,20 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "detailsTabLabel" : "Details",
-        "discussionsTabLabel" : "Feed",
-        "recordId" : "{!recordId}",
-        "relatedTabLabel" : "Related",
-        "showLegacyActivityComposer" : false,
-        "tab1Type" : "details",
-        "tab2Type" : "related",
-        "tab3Type" : "chatter",
-        "tab4Type" : "none",
-        "timelineTabLabel" : "Activity"
+        "recordId" : "{!recordId}"
       },
-      "componentName" : "forceCommunity:recordHomeTabs",
-      "id" : "79e04f34-f26f-43ca-8b31-997462134f05",
+      "componentName" : "forceCommunity:recordDetail",
+      "id" : "bada7b08-7c48-4595-8e62-b0ad76ee8283",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:relatedRecords",
+      "id" : "18a65ae4-04c8-491d-8778-a5b2b99a5d8c",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
